@@ -1,0 +1,53 @@
+/* .TableDataMain{
+
+}
+
+.firstColumn{
+    display: flex;
+    align-items: center;
+}
+
+.UserTable{
+
+}
+
+.UserTable thead tr th{
+    color: #152428;
+    font-family: 'Nunito', sans-serif;
+     font-weight: 600;
+     font-size: 14px;
+}
+
+
+.UserTable tbody tr td{
+    color: #152428;
+    font-family: 'Nunito', sans-serif;
+     font-weight: 600;
+     font-size: 14px;
+} */
+
+
+
+ {/* <Table className="UserTable">
+        <thead >
+          <tr style={{border:"2px solid red"}}>
+            <th>Client Name</th>
+            <th>Task</th>
+            <th>Due Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          {data.map((row) => (
+            <tr key={row.name}>
+              <td>
+                <div className="firstColumn">
+                  <img src={row.Image} />
+                  {row.name}
+                </div>
+              </td>
+              <td>{row.Task}</td>
+              <td>{row.Date}</td>
+            </tr>
+          ))}
+        </tbody>
+      </Table> */}
